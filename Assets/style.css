@@ -63,7 +63,7 @@ body {
     position: absolute;
     /* width: 700px;
     height: 550px; */
-    background: #2db34a;
+    background: #f4f5f4;
     border: 2px solid black;
   }
 /* 
@@ -80,8 +80,7 @@ body {
 }
 
 .box-2 {
-  top: -5;
-  left: 100px;
+  top: 5;
   margin-top: 0%;
   float: right;
 }
