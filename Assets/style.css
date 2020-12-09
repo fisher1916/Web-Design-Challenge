@@ -13,6 +13,13 @@ body {
     background: #efeee7;
   }
   
+
+  .box-3 {
+    padding: 5px;
+    margin: 8px;
+    font-weight: 500;
+    color: black;
+  }
   /* .col-md-7 {
     padding-left: 0px;
     padding-right: 0px;
@@ -76,7 +83,6 @@ body {
 }
 
 .box-2 {
-  top: 5;
   margin-top: 0%;
   float: right;
 }
