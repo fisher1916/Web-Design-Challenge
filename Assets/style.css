@@ -66,6 +66,7 @@ body {
 
 
   .box {
+    position: relative;
     background: #f4f5f4;
     border: 2px solid black;
   }
@@ -79,12 +80,16 @@ body {
   } */
 
 .box-1 {
+  margin-left: auto;
+  float: left;
   margin-top: 0%;
 }
 
 .box-2 {
-  margin-top: 0%;
+  margin-right: auto;
   float: right;
+  margin-top: 0%;
+  /* float: right; */
 }
   .img-size-1 {
     max-width: 205px;
