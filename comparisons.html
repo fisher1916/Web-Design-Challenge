@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Latitude Summary</title>
+  <title>Latitude Comparisons</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="Assets/style.css">
 </head>
@@ -44,48 +44,46 @@
         </div>
     </div>
 
-
     <div class= "row bg-light">
-        <div class= "col-md-7 border">
-            <div class ="box-1">
-                <h2> Summary: Latitude vs. X</h2>
-                <hr />
-                <a href="max_temp.html" data-toggle="tooltip" data-placement="top" title="Max Temperature">
-                    <img class="textwrap img-size-2" src="Visualizations/Max_temp.png"
-                      alt="Max Temperature" />
-                </a>
-                    The purpose of this project was to analyze how
-                    weather changes as you get closer to the equator. To 
-                    accomplish this analysis, we first pulled data from the 
-                    OpenWeatherMap API to assemble a dataset of over 500 cities.
-                    <br>
-                    <br>
-                    After assembling the dataset, we used Matplotlib to plot various
-                    aspects of the weather vs latitude. Factors we looked at included:
-                    temperature, cloudiness, wind speed and humidity. This site provides
-                    the source data and visualizations created as part of the analysis,
-                    as well as explainations and descriptions of any trend and correlations
-                    witnessed.
-            </div>
- 
-        </div>
-        <div class="col-md-5 border">
+        <div class="col-md-12 border">
             <div class= "box-1">
-                <h2>Visualizations</h2>
+                <p>
+                <h3>Comparisons: Latitude vs. X</h3>
                 <hr />
+                Click on any plot to get an in-depth analysis.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-6 border">
+            <div class= "box-1">
+                <h4>vs. Max Temp</h4>
                 <a href="max_temp.html" data-toggle="tooltip" data-placement="top" title="Max Temperature">
-                    <img src="Visualizations/Max_temp.png" class="img-size-1" alt="Max Temperature" />
+                    <img src="Visualizations/Max_temp.png" class="img-size-4" alt="Max Temperature" />
                 </a>
+            </div>
+        </div>
+        <div class="col-md-6 border">
+            <div class= "box-1">
+                <h4>vs. Cloudiness</h4>
                 <a href="cloudiness.html" data-toggle="tooltip" data-placement="top" title="Cloudiness">
-                    <img src="Visualizations/Cloudiness.png" class="img-size-1" alt="Cloudiness" />
+                    <img src="Visualizations/Cloudiness.png" class="img-size-4" alt="Cloudiness" />
                 </a>
+            </div>
+        </div>
+        <div class="col-md-6 border">
+            <div class= "box-1">
+                <h4>vs. Wind Speed</h4>
                 <a href="windspeed.html" data-toggle="tooltip" data-placement="top" title="Wind Speed">
-                    <img src="Visualizations/Wind_speed.png" class="img-size-1" alt="Wind Speed" />
+                    <img src="Visualizations/Wind_speed.png" class="img-size-4" alt="Wind Speed" />
                 </a>
+            </div>
+        </div>
+        <div class="col-md-6 border">
+            <div class= "box-1">
+                <h4>vs. Humidity</h4>
                 <a href="humidity.html" data-toggle="tooltip" data-placement="top" title="Humidity">
-                    <img src="Visualizations/Humidity.png" class="img-size-1" alt="Humidity" />
+                    <img src="Visualizations/Humidity.png" class="img-size-4" alt="Humidity" />
                 </a>
-
             </div>
         </div>
     </div>   
